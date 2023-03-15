@@ -1,0 +1,35 @@
+name: memory_gym
+description: The prototype for my long-awaited memory project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^1.1.3
+  build_runner: ^2.1.11
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/book-of-mormon-reference.json
+    - assets/doctrine-and-covenants-reference.json
+    - assets/new-testament-reference.json
+    - assets/old-testament-reference.json
+    - assets/pearl-of-great-price-reference.json
+
+  uses-material-design: true
